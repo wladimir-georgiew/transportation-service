@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import TopBar from './Components/TopBar.js';
+import NavBar from './Components/NavBar.js';
+import HeroCover from './Components/HeroCover.js';
+import ContactUs from './Components/ContactUs.js';
+import MainContent from './Components/MainContent.js';
+
+// Import the external CSS files
+// import 'https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap';
+// import './fonts/flaticon/font/flaticon.css';
+// import './fonts/icomoon/style.css';
+ import './css/bootstrap.min.css';
+// import './css/jquery.fancybox.min.css';
+// import './css/owl.carousel.min.css';
+// import './css/owl.theme.default.min.css';
+// import './css/aos.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="site-wrap" id="home-section">
+        <TopBar />
+        <NavBar />
+        <HeroCover />
+        <MainContent />
+        <ContactUs />
+      </div>
     </div>
   );
 }
