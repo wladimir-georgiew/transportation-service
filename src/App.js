@@ -5,6 +5,10 @@ import NavBar from './Components/NavBar.js';
 import HeroCover from './Components/HeroCover.js';
 import ContactUs from './Components/ContactUs.js';
 import MainContent from './Components/MainContent.js';
+import LanguageSelector from './Components/LanguageSelector.js';
+import "./styles.css";
+
+import "./i18n";
 
 // Import the external CSS files
 // import 'https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap';
@@ -21,7 +25,8 @@ function App() {
     <div className="App">
       <div className="site-wrap" id="home-section">
         <TopBar />
-        <NavBar />
+        <LanguageSelector/>
+        {/* <NavBar /> */}
         <HeroCover />
         <MainContent />
         <ContactUs />

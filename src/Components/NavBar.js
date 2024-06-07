@@ -1,5 +1,3 @@
-import "../styles.css";
-
 function App() {
   return (
     <header className="site-navbar site-navbar-target" role="banner">

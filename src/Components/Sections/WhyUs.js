@@ -1,4 +1,3 @@
-import "../../styles.css";
 import background from "../../images/depot_delivery_1.jpg";
 
 function App() {

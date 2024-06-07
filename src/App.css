@@ -1,0 +1,8 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.language-selector-items{
+    text-align: -webkit-center;
+}
