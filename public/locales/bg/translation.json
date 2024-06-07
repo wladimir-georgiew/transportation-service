@@ -1,3 +1,210 @@
 {
-    "headline": "Такси услуги"
+  "from_to": "От/до",
+  "to_from": "До/от",
+  "km": "Км",
+  "price": "Цена",
+  "headline": "Такси услуги",
+  "pricing_list": "Ценоразпис",
+  "plovdiv_main": "Пловдив",
+  "sofia_main": "София",
+  "sofia": {
+    "city": "София",
+    "distance_km": "145",
+    "price": "149лв."
+  },
+  "burgas": {
+    "city": "Бургас",
+    "distance_km": "255",
+    "price": "269лв."
+  },
+  "varna": {
+    "city": "Варна",
+    "distance_km": "370",
+    "price": "359лв."
+  },
+  "sozopol": {
+    "city": "Созопол",
+    "distance_km": "285",
+    "price": "299лв."
+  },
+  "slunchev_bryag": {
+    "city": "Слънчев бряг",
+    "distance_km": "280",
+    "price": "299лв."
+  },
+  "zlatni_pyasatsi": {
+    "city": "Златни пясъци",
+    "distance_km": "380",
+    "price": "369лв."
+  },
+  "veliko_tarnovo": {
+    "city": "Велико Търново",
+    "distance_km": "215",
+    "price": "249лв."
+  },
+  "bansko": {
+    "city": "Банско",
+    "distance_km": "150",
+    "price": "189лв."
+  },
+  "borovets": {
+    "city": "Боровец",
+    "distance_km": "125",
+    "price": "139лв."
+  },
+  "velingrad": {
+    "city": "Велинград",
+    "distance_km": "85",
+    "price": "109лв."
+  },
+  "botevgrad": {
+    "city": "Ботевград",
+    "distance_km": "195",
+    "price": "*"
+  },
+  "vidin": {
+    "city": "Видин",
+    "distance_km": "370",
+    "price": "*"
+  },
+  "vratsa": {
+    "city": "Враца",
+    "distance_km": "240",
+    "price": "*"
+  },
+  "gabrovo": {
+    "city": "Габрово",
+    "distance_km": "140",
+    "price": "*"
+  },
+  "devin": {
+    "city": "Девин",
+    "distance_km": "90",
+    "price": "*"
+  },
+  "dobrich": {
+    "city": "Добрич",
+    "distance_km": "410",
+    "price": "*"
+  },
+  "kazanlak": {
+    "city": "Казанлък",
+    "distance_km": "105",
+    "price": "*"
+  },
+  "kalofer": {
+    "city": "Калофер",
+    "distance_km": "65",
+    "price": "*"
+  },
+  "karlovo": {
+    "city": "Карлово",
+    "distance_km": "60",
+    "price": "*"
+  },
+  "kozloduy": {
+    "city": "Козлодуй",
+    "distance_km": "320",
+    "price": "*"
+  },
+  "kardzhali": {
+    "city": "Кърджали",
+    "distance_km": "95",
+    "price": "*"
+  },
+  "kyustendil": {
+    "city": "Кюстендил",
+    "distance_km": "215",
+    "price": "*"
+  },
+  "nova_zagora": {
+    "city": "Нова Загора",
+    "distance_km": "130",
+    "price": "*"
+  },
+  "pernik": {
+    "city": "Перник",
+    "distance_km": "170",
+    "price": "*"
+  },
+  "petrich": {
+    "city": "Петрич",
+    "distance_km": "250",
+    "price": "*"
+  },
+  "pleven": {
+    "city": "Плевен",
+    "distance_km": "195",
+    "price": "*"
+  },
+  "razgrad": {
+    "city": "Разград",
+    "distance_km": "320",
+    "price": "*"
+  },
+  "svilengrad": {
+    "city": "Свиленград",
+    "distance_km": "150",
+    "price": "*"
+  },
+  "silistra": {
+    "city": "Силистра",
+    "distance_km": "405",
+    "price": "*"
+  },
+  "sliven": {
+    "city": "Сливен",
+    "distance_km": "180",
+    "price": "*"
+  },
+  "stara_zagora": {
+    "city": "Стара загора",
+    "distance_km": "105",
+    "price": "*"
+  },
+  "haskovo": {
+    "city": "Хасково",
+    "distance_km": "80",
+    "price": "*"
+  },
+  "shumen": {
+    "city": "Шумен",
+    "distance_km": "290",
+    "price": "*"
+  },
+  "yambol": {
+    "city": "Ямбол",
+    "distance_km": "170",
+    "price": "*"
+  },
+  "plovdiv": {
+    "city": "Пловдив",
+    "distance_km": "145",
+    "price": "149лв."
+  },
+  "sofia_burgas": {
+    "city": "Бургас",
+    "distance_km": "255",
+    "price": "269лв."
+  },
+  "sofia_varna": {
+    "city": "Варна",
+    "distance_km": "370",
+    "price": "359лв."
+  },
+  "sofia_sozopol": {
+    "city": "Созопол",
+    "distance_km": "285",
+    "price": "299лв."
+  },
+  "sofia_slunchev_bryag": {
+    "city": "Слънчев бряг",
+    "distance_km": "280",
+    "price": "299лв."
+  },
+  "sofia_zlatni_pyasatsi": {
+    "city": "Златни пясъци",
+    "distance_km": "380",
+    "price": "369лв."
+  }
 }

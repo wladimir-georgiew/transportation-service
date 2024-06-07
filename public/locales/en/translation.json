@@ -1,3 +1,215 @@
 {
-    "headline": "Taxi services"
+  "from_to": "From/to",
+  "to_from": "To/from",
+  "km": "Km",
+  "price": "Price",
+  "headline": "Taxi Services",
+  "pricing_list": "Pricing List",
+  "plovdiv_main": "Plovdiv",
+  "sofia_main": "Sofia",
+  "sofia": {
+    "city": "Sofia",
+    "distance_km": "145",
+    "price": "77€"
+  },
+  "burgas": {
+    "city": "Burgas",
+    "distance_km": "255",
+    "price": "137€"
+  },
+  "varna": {
+    "city": "Varna",
+    "distance_km": "370",
+    "price": "184€"
+  },
+  "sozopol": {
+    "city": "Sozopol",
+    "distance_km": "285",
+    "price": "154€"
+  },
+  "slunchev_bryag": {
+    "city": "Slunchev bryag",
+    "distance_km": "280",
+    "price": "154€"
+  },
+  "zlatni_pyasatsi": {
+    "city": "Zlatni pyasatsi",
+    "distance_km": "380",
+    "price": "189€"
+  },
+  "veliko_tarnovo": {
+    "city": "Veliko Tarnovo",
+    "distance_km": "215",
+    "price": "128€"
+  },
+  "bansko": {
+    "city": "Bansko",
+    "distance_km": "150",
+    "price": "97€"
+  },
+  "borovets": {
+    "city": "Borovets",
+    "distance_km": "125",
+    "price": "71€"
+  },
+  "velingrad": {
+    "city": "Velingrad",
+    "distance_km": "85",
+    "price": "56€"
+  },
+  "botevgrad": {
+    "city": "Botevgrad",
+    "distance_km": "195",
+    "price": "*"
+  },
+  "vidin": {
+    "city": "Vidin",
+    "distance_km": "370",
+    "price": "*"
+  },
+  "vratsa": {
+    "city": "Vratsa",
+    "distance_km": "240",
+    "price": "*"
+  },
+  "gabrovo": {
+    "city": "Gabrovo",
+    "distance_km": "140",
+    "price": "*"
+  },
+  "devin": {
+    "city": "Devin",
+    "distance_km": "90",
+    "price": "*"
+  },
+  "dobrich": {
+    "city": "Dobrich",
+    "distance_km": "410",
+    "price": "*"
+  },
+  "kazanlak": {
+    "city": "Kazanlak",
+    "distance_km": "105",
+    "price": "*"
+  },
+  "kalofer": {
+    "city": "Kalofer",
+    "distance_km": "65",
+    "price": "*"
+  },
+  "karlovo": {
+    "city": "Karlovo",
+    "distance_km": "60",
+    "price": "*"
+  },
+  "kozloduy": {
+    "city": "Kozloduy",
+    "distance_km": "320",
+    "price": "*"
+  },
+  "kardzhali": {
+    "city": "Kardzhali",
+    "distance_km": "95",
+    "price": "*"
+  },
+  "kyustendil": {
+    "city": "Kyustendil",
+    "distance_km": "215",
+    "price": "*"
+  },
+  "nova_zagora": {
+    "city": "Nova Zagora",
+    "distance_km": "130",
+    "price": "*"
+  },
+  "pernik": {
+    "city": "Pernik",
+    "distance_km": "170",
+    "price": "*"
+  },
+  "petrich": {
+    "city": "Petrich",
+    "distance_km": "250",
+    "price": "*"
+  },
+  "pleven": {
+    "city": "Pleven",
+    "distance_km": "195",
+    "price": "*"
+  },
+  "razgrad": {
+    "city": "Razgrad",
+    "distance_km": "320",
+    "price": "*"
+  },
+  "svilengrad": {
+    "city": "Svilengrad",
+    "distance_km": "150",
+    "price": "*"
+  },
+  "silistra": {
+    "city": "Silistra",
+    "distance_km": "405",
+    "price": "*"
+  },
+  "sliven": {
+    "city": "Sliven",
+    "distance_km": "180",
+    "price": "*"
+  },
+  "stara_zagora": {
+    "city": "Stara Zagora",
+    "distance_km": "105",
+    "price": "*"
+  },
+  "haskovo": {
+    "city": "Haskovo",
+    "distance_km": "80",
+    "price": "*"
+  },
+  "shumen": {
+    "city": "Shumen",
+    "distance_km": "290",
+    "price": "*"
+  },
+  "yambol": {
+    "city": "Yambol",
+    "distance_km": "170",
+    "price": "*"
+  },
+  "letishte_plovdiv": {
+    "city": "Letishte Plovdiv",
+    "distance_km": "20",
+    "price": "21€"
+  },
+  "plovdiv": {
+    "city": "Sofia",
+    "distance_km": "145",
+    "price": "77€"
+  },
+  "sofia_burgas": {
+    "city": "Burgas",
+    "distance_km": "385",
+    "price": "179€"
+  },
+  "sofia_slunchev_bryag": {
+    "city": "Slunchev bryag",
+    "distance_km": "415",
+    "price": "210€"
+  },
+  "sofia_sozopol": {
+    "city": "Sozopol",
+    "distance_km": "420",
+    "price": "210€"
+  },
+  "sofia_varna": {
+    "city": "Varna",
+    "distance_km": "440",
+    "price": "209€"
+  },
+  "sofia_zlatni_pyasatsi": {
+    "city": "Zlatni pyasatsi",
+    "distance_km": "460",
+    "price": "225€"
+  }
 }

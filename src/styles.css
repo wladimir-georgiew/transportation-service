@@ -622,9 +622,6 @@
       font-size: 18px;
       color: #fff; }
   
-  .site-section {
-    padding: 7rem 0; }
-  
   .block-heading-1 span {
     font-size: 12px;
     letter-spacing: .1em;
@@ -1177,3 +1174,6 @@
   .bg-light {
     background-color: #f6f5f5 !important; }
   
+  .lang-selector{
+    justify-content: center;
+  }
