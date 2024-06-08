@@ -3,6 +3,43 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.language-selector-items{
+.language-selector-items {
     text-align: -webkit-center;
 }
+
+.language-selector-flag {
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.language-selector-flag-bg {
+    background-image: url("./images/bg2.png");
+}
+
+.language-selector-flag-gb {
+    background-image: url("./images/gb2.png");
+}
+
+.language-selector-btn {
+    color: revert;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adjust spacing between flag and text */
+}
+
+.inline {
+    display: inline-block;
+}
+
+.language-selector-code {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.language-header {
+    z-index: 10;
+    background-color: white;
+  }

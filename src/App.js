@@ -6,6 +6,7 @@ import HeroCover from './Components/HeroCover.js';
 import ContactUs from './Components/ContactUs.js';
 import MainContent from './Components/MainContent.js';
 import LanguageSelector from './Components/LanguageSelector.js';
+import LanguageSelectorHeader from './Components/LanguageSelectorHeader.js';
 import "./styles.css";
 
 import "./i18n";
@@ -25,7 +26,8 @@ function App() {
     <div className="App">
       <div className="site-wrap" id="home-section">
         <TopBar />
-        <LanguageSelector/>
+        <LanguageSelectorHeader/>
+        {/* <LanguageSelector/> */}
         {/* <NavBar /> */}
         <HeroCover />
         <MainContent />

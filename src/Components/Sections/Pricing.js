@@ -92,7 +92,7 @@ function App() {
           <div className="block-heading-1 col-12 text-center">
             <h2>{t('pricing_list')}</h2>
           </div>
-          <LanguageSelector/>
+          {/* <LanguageSelector/> */}
         </div>
 
         {/* Plovdiv */}
