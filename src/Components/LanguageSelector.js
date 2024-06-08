@@ -25,6 +25,7 @@ const LanguageSelector = () => {
       <div>
         {countries.map((lng) => (
           <button
+            key={lng.code}
             className={classNames(
               "items-center space-x-2 px-4 py-2 text-sm inline language-selector-btn"
             )}

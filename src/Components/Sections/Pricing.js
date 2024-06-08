@@ -9,81 +9,17 @@ import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import LanguageSelector from '../LanguageSelector.js';
 
 import { useTranslation } from "react-i18next";
 
-const translationKeysPlovdiv = [
-  "sofia",
-  "burgas",
-  "varna",
-  "sozopol",
-  "slunchev_bryag",
-  "zlatni_pyasatsi",
-  "veliko_tarnovo",
-  "bansko",
-  "borovets",
-  "velingrad",
-  "botevgrad",
-  "vidin",
-  "vratsa",
-  "gabrovo",
-  "devin",
-  "dobrich",
-  "kazanlak",
-  "kalofer",
-  "karlovo",
-  "kozloduy",
-  "kardzhali",
-  "kyustendil",
-  "nova_zagora",
-  "pernik",
-  "petrich",
-  "pleven",
-  "razgrad",
-  "svilengrad",
-  "silistra",
-  "sliven",
-  "stara_zagora",
-  "haskovo",
-  "shumen",
-  "yambol",
-];
-const translationKeysSofia = [
-  "plovdiv",
-  "sofia_burgas",
-  "sofia_varna",
-  "sofia_sozopol",
-  "sofia_slunchev_bryag",
-  "sofia_zlatni_pyasatsi",
-];
-
-function GetPlovdivRows() {
-  const { t } = useTranslation();
-  let list = [];
-
-  for (const key in translationKeysPlovdiv) {
-    let translation = t(translationKeysPlovdiv[key], { returnObjects: true });
-    list.push(translation);
-  }
-
-  return list;
-}
-
-function GetSofiaRows() {
-  const { t } = useTranslation();
-  let list = [];
-
-  for (const key in translationKeysSofia) {
-    let translation = t(translationKeysSofia[key], { returnObjects: true });
-    list.push(translation);
-  }
-
-  return list;
-}
-
 function App() {
   const { t } = useTranslation();
+
+  function GetRows(fromCity) {
+    let data = t(fromCity, { returnObjects: true });
+  
+    return Object.keys(data).map(key => data[key])
+  }
 
   return (
     <div className="site-section" id="pricing-section">
@@ -120,9 +56,9 @@ function App() {
                   </TableRow>
                 </TableHead>
                 <TableBody>
-                  {GetPlovdivRows().map((row) => (
+                  {GetRows('plovdiv').map((row) => (
                     <TableRow
-                      // key={{table1From}}
+                      key={row.city}
                       sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                     >
                       <TableCell component="th" scope="row">
@@ -163,9 +99,9 @@ function App() {
                   </TableRow>
                 </TableHead>
                 <TableBody>
-                  {GetSofiaRows().map((row) => (
+                  {GetRows('sofia').map((row) => (
                     <TableRow
-                      // key={{table1From}}
+                      key={row.city}
                       sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                     >
                       <TableCell component="th" scope="row">

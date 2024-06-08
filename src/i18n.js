@@ -16,8 +16,8 @@ i18n
     detection: {
       checkWhitelist: true,
     },
-    // returnObjects: false,
-    debug: true,
+    returnObjects: true,
+    //debug: true,
     interpolation: {
       escapeValue: false, // no need for react. it escapes by default
     },
