@@ -8,6 +8,11 @@
   "plovdiv_main": "Пловдив",
   "sofia_main": "София",
   "plovdiv": {
+    "letishte_plovdiv": {
+      "city": "Летище Пловдив",
+      "distance_km": "20",
+      "price": "40лв."
+    },
     "sofia": {
       "city": "София",
       "distance_km": "145",

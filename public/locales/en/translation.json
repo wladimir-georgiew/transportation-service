@@ -8,6 +8,11 @@
   "plovdiv_main": "Plovdiv",
   "sofia_main": "Sofia",
   "plovdiv": {
+    "letishte_plovdiv": {
+      "city": "Letishte Plovdiv",
+      "distance_km": "20",
+      "price": "21€"
+    },
     "sofia": {
       "city": "Sofia",
       "distance_km": "145",
@@ -177,11 +182,6 @@
       "city": "Yambol",
       "distance_km": "170",
       "price": "*"
-    },
-    "letishte_plovdiv": {
-      "city": "Letishte Plovdiv",
-      "distance_km": "20",
-      "price": "21€"
     }
   },
   "sofia": {
