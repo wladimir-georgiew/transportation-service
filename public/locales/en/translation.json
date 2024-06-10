@@ -9,7 +9,7 @@
   "sofia_main": "Sofia",
   "plovdiv": {
     "letishte_plovdiv": {
-      "city": "Letishte Plovdiv",
+      "city": "Plovdiv Airport",
       "distance_km": "20",
       "price": "21€"
     },
@@ -34,7 +34,7 @@
       "price": "154€"
     },
     "slunchev_bryag": {
-      "city": "Slunchev bryag",
+      "city": "Sunny Beach / Slunchev bryag",
       "distance_km": "280",
       "price": "154€"
     },
@@ -196,7 +196,7 @@
       "price": "179€"
     },
     "sofia_slunchev_bryag": {
-      "city": "Slunchev bryag",
+      "city": "Sunny Beach",
       "distance_km": "415",
       "price": "210€"
     },
