@@ -215,5 +215,18 @@
       "distance_km": "460",
       "price": "225€"
     }
+  },
+  "faq" :{
+    "faq_name": "Frequently Asked Questions",
+    "q1": "To be added1",
+    "q1_details": "To be added1",
+    "q2": "To be added2",
+    "q2_details": "To be added2",
+    "q3": "To be added3",
+    "q3_details": "To be added3",
+    "q4": "To be added4",
+    "q4_details": "To be added4",
+    "q5": "To be added5",
+    "q5_details": "To be added5"
   }
 }
