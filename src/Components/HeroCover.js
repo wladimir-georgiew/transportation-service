@@ -1,4 +1,4 @@
-import background from "../images/depot_hero_1.jpg";
+import background from "../images/background.jpg";
 import { useTranslation } from "react-i18next";
 
 function App() {
@@ -7,16 +7,21 @@ function App() {
   return (
     <div className="ftco-blocks-cover-1">
       <div
-        className="ftco-cover-1 overlay"
+        className="ftco-cover-1 overlay dark-overlay"
         style={{ backgroundImage: `url(${background})` }}
       >
         <div className="container">
           <div className="row align-items-center justify-content-center text-center">
             <div className="col-lg-6">
               <h1>{t("headline")}</h1>
-              <p className="mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus dolorem eius eligendi esse quod?
+              <p style={{fontWeight: "bolder", fontSize: "16px"}}>
+                {t("headline2")}
+              </p>
+              <p style={{fontWeight: "bolder", fontSize: "16px"}}>
+                {t("headline3")}
+              </p>
+              <p style={{fontWeight: "bolder", fontSize: "16px"}}>
+                {t("headline4")}
               </p>
               {/* <form action="#">
               <div className="form-group d-flex">

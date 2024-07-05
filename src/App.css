@@ -27,7 +27,8 @@
     color: revert;
     display: flex;
     align-items: center;
-    gap: 8px; /* Adjust spacing between flag and text */
+    gap: 8px;
+    /* Adjust spacing between flag and text */
 }
 
 .inline {
@@ -42,4 +43,31 @@
 .language-header {
     z-index: 10;
     background-color: white;
-  }
+}
+
+
+
+.icon-items {
+    text-align: -webkit-center;
+}
+
+.icons {
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+.mail-icon {
+    background-image: url("./images/mail.png");
+}
+
+.viber-icon {
+    background-image: url("./images/viber.png");
+}
+
+.telegram-icon {
+    background-image: url("./images/telegram.png");
+}
