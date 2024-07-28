@@ -71,3 +71,9 @@
 .telegram-icon {
     background-image: url("./images/telegram.png");
 }
+
+.footer-contact
+{
+    background-color: #EEEEEE;
+    padding: 10px;
+}

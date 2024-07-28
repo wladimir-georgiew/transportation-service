@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 function App() {
   const { t } = useTranslation();
   return (
-    <div>
+    <div className="footer-contact">
       <div className="block-heading-1">
               <h2 style={{textAlign: "center"}}>{t("contact")}</h2>
        </div>
